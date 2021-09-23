@@ -2,13 +2,38 @@
   "todos": [
     {
       "id": 1,
-      "tittle": "Hit the gym",
+      "title": "Hit the gym",
       "done": false
     },
     {
       "id": 2,
-      "tittle": "Pay bills",
+      "title": "Pay bills",
       "done": true
+    },
+    {
+      "title": "Go to school",
+      "done": false,
+      "id": 3
+    },
+    {
+      "title": "Pray",
+      "done": false,
+      "id": 4
+    },
+    {
+      "title": "Have breakfast",
+      "done": false,
+      "id": 5
+    },
+    {
+      "title": "Go to market",
+      "done": false,
+      "id": 6
+    },
+    {
+      "title": "Play football",
+      "done": false,
+      "id": 7
     }
   ]
 }
