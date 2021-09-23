@@ -1,7 +1,7 @@
 const TodoItem = ({ todo }) => {
   return (
     <li className={`${todo.done ? "checked" : ""}`}>
-      {todo.title} <span className="close">x</span>
+      {todo.tittle} <span className="close">x</span>
     </li>
   );
 };

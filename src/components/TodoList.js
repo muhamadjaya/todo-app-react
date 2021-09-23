@@ -3,6 +3,7 @@ import TodoItem from "./TodoItem";
 
 const TodoList = () => {
   const [todos, setTodos] = useState([]);
+
   useEffect(() => {
     // memanggil API untuk mengambil data todos
     fetch("http://localhost:8000/todos")
@@ -10,7 +11,7 @@ const TodoList = () => {
         return res.json();
       })
       .then((data) => {
-        // ketika Rest API sukse, simpan data dari response ke dalam state lokal
+        // ketika Rest API sukses, simpan data dari response ke dalam state lokal
         setTodos(data);
       })
       .catch((err) => {
